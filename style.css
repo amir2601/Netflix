@@ -150,7 +150,7 @@ nav img {
     z-index: -1;
 }
 
-/* FAQ Section PC */
+/* ---------------------- FAQ Section PC ---------------------- */
 
 .faq-title {
     font-size: 48px;
@@ -196,6 +196,34 @@ nav img {
 
 .faq-input-container p {
     font-size: 20px;
+}
+
+/* ---------------------- Footer Section PC ---------------------- */
+
+footer {
+    color: #B3B3B3;
+    width: 1172px;
+    margin: auto;
+    padding: 4% 0;
+}
+
+footer a {
+    color: #B3B3B3;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+.footer-links-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 2% 0;
+}
+
+.footer-links-container a {
+    padding: 10px 0;
+    font-size: 14px;
 }
 
 
@@ -291,6 +319,23 @@ nav img {
 
     .faq-input-container p {
         font-size: 18px;
+    }
+
+    /* ---------------------- Footer Section Tablet ---------------------- */
+
+    footer {
+        width: 716px;
+    }
+
+    .footer-links-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 2% 0;
+    }
+
+    .footer-links-container a {
+        padding: 8px 0;
+        font-size: 14px;
     }
 }
 
@@ -399,5 +444,22 @@ nav img {
         font-size: 14px;
         text-align: center;
         padding: 8%;
+    }
+
+    /* ---------------------- Footer Section Tablet ---------------------- */
+
+    footer {
+        width: 300px;
+    }
+
+    .footer-links-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 2% 0;
+    }
+
+    .footer-links-container a {
+        padding: 8px 0;
+        font-size: 14px;
     }
 }
